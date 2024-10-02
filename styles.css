@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 2%;
+    background-color: black;
+}
+
+
+
+.contenedor{
+    background-color: rgb(245, 244, 238);
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+
+.contenedor-img{
+    max-width: 400px;
+    max-height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-img img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+.contenedor-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.contenedor-head p {
+    margin: 5px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+.fa-solid {
+    font-size: 20px;
+    text-align: end;
+}
+
+.kebab{
+    justify-content: flex-end;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-footer{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.iconos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 4px;
+}
+
+.guardar{
+    justify-content: flex-end;
+    font-size: 30px;
+}
